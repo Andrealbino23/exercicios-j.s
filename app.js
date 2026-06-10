@@ -208,25 +208,38 @@ function soma(numero1, numero2, numero3, numero4) {
 
 
 
-function albunsdefigurinhas(completos, imcompletos) {
+// function albunsdefigurinhas(completos, imcompletos) {
 
-    if (completos > imcompletos) {
+//     if (completos > imcompletos) {
 
-        return `seu album esta completo`
-    }
-    else {
+//         return `seu album esta completo`
+//     }
+//     else {
 
-        return `seu album esta imcompleto`
+//         return `seu album esta imcompleto`
 
-    }
-
-
-}
+//     }
 
 
-const luan = albunsdefigurinhas(480, 500) // nao esquecer de colocar isso sempre dsp das chaves se nao o codigo nao roda
-const joao = albunsdefigurinhas(580, 500)
+// }
 
-console.log(luan);
-console.log(joao);
 
+// const luan = albunsdefigurinhas(480, 500) // nao esquecer de colocar isso sempre dsp das chaves se nao o codigo nao roda
+// const joao = albunsdefigurinhas(580, 500)
+
+// console.log(luan);
+// console.log(joao);
+  
+
+//arrow fucao
+
+// function nomes(){}
+
+// const falemeunome = () => {
+
+// console.log(`andre`);
+
+
+// }
+
+// falemeunome()
