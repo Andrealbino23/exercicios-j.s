@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversor de Dólar</title>
 </head>
 <body>
-   
-<script src="app.js"></script>
 
-<p>ola mundo</p>
+    <h1>CONVERSOR DE DÓLAR</h1>
+
+    <input placeholder="VALOR EM REAIS" type="number">
+
+    <button onclick="CONVERTER()">CONVERTER</button>
+
+    <script>
+        const VALORREAL = document.querySelector("input");
+
+        function CONVERTER() {
+            const valorconvertido = Number(VALORREAL.value) / 5;
+
+            alert(`O valor em dólar é US$ ${valorconvertido}`);
+        }
+    </script>
 
 </body>
 </html>
